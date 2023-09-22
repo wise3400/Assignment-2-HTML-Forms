@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2: HTML Forms</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Assignment 2 - HTML Forms</h1>
+    
+    
+    <form>
+    <fieldset>
+        <legend>Your Information: </legend>
+        <label for = "username">Choose Your Username: </label>
+        <input type = "text" id = "username" list = "usernames"  name = "username">
+        
+        <label for = "password">Password: </label>
+        <input id = "password" type = "password" name = "password">
+       
+        <br>
+        <br>
+
+        <label for = "email">Email: </label>
+        <input id = "email" type = "email" name = "email">
+       
+        <label for = "telephone">Telephone: </label>
+        <input id = "tel" type = "tel" name = "tel">
+
+        <label for = "website">Favorite Website: </label>
+        <input id = "url" type = "url" name = "url">
+        
+        <datalist id = "usernames">
+            <option value = "wilson001">
+            <option value = "wilson002">
+            <option value = "wilson003">
+            <option value = "wilson004">
+        </datalist>
+        
+        <button type = "button" id = "submitButton">Submit </button>
+    </fieldset>
+    </form>
+
+    <h2>Account Summary: </h2>
+    <h3 id = "show-text1">Your Username: </h3>
+    <h3 id = "show-text2">Your Password: </h3>
+    <h3 id = "show-text3">Your Email: </h3>
+    <h3 id = "show-text4">Your Telephone: </h3>
+    <h3 id = "show-text5">Your Favorite Website: </h3>
+    
+</body>
+</html>
